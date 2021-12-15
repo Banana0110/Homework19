@@ -1,10 +1,10 @@
 package Credit;
 
 public class Credit {
-    public String Id;
-    public int sum;
-    public String period;
-    public Double interestrate;
+    private String Id;
+    private int sum;
+    private String period;
+    private Double interestrate;
     public static int count;
 
     public String getId() {
@@ -38,7 +38,6 @@ public class Credit {
     public void setInterestrate(Double interestrate) {
         this.interestrate = interestrate;
     }
-
 
     public Credit() {
         count++;
